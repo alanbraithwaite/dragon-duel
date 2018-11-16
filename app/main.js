@@ -1,9 +1,11 @@
-import GameController from "./components/gamecontroller.js";
+import DragonController from "./components/dragons/dragons-controller.js";
+import ChampionController from "./components/champions/champion-controller.js";
 
 class App {
   constructor() {
     this.controllers = {
-      gameController: new GameController(),
+      dragonController: new DragonController(),
+      championController: new ChampionController(),
 
 
     }
